@@ -1,0 +1,135 @@
+.A {
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 21px;
+    margin-left: 61px;
+}
+
+.B {
+    margin-left: 61px;
+    margin-top: 21px;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.C {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.D {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.D1 {
+    height: 73px;
+    width: 73px;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D2 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://img.freepik.com/free-photo/blurred-abstract-background-modern-kitchen-with-tabletop-space-display-your-products_91908-1263.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D3 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://c8.alamy.com/comp/2DKTNEN/usb-flash-drive-on-color-background-close-up-2DKTNEN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D4 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://media.istockphoto.com/photos/mens-suits-on-hangers-in-different-colors-picture-id887360960?b=1&k=20&m=887360960&s=170667a&w=0&h=VPWE-roegP_5TE44cD9B9ImCX10DUgPhnwmOnauzTOc=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D5 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://previews.123rf.com/images/jchizhe/jchizhe1512/jchizhe151200143/49195858-outfit-of-stylish-ladies-clothing-on-a-white-background-blue-retro-shoes-dress-jewerly-and-perfume-f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D6 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://image.shutterstock.com/image-photo/wireless-computer-mouse-on-yellow-260nw-1719050734.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D7 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://thumbs.dreamstime.com/b/colorful-clothes-hanging-rack-against-blue-background-space-text-colorful-clothes-hanging-rack-against-light-blue-168578462.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D8 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://images.unsplash.com/photo-1548016193-b9381233058c?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3w4MzQ1NDkxfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.D9 {
+    height: 73px;
+    width: 73px;
+    background-image: url(https://cdn.wallpapersafari.com/99/63/Nus0bi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.E {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f>div>p {
+    margin-left: 201px;
+    font-size: 16px;
+}
+
+.f {
+    display: flex;
+    background-color: blue;
+}
+
+input {
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 30px;
+}
+
+button {
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    color: blue;
+}
+
+.la {
+    background-image: url(https://c8.alamy.com/comp/2BGTR7X/a-smartphone-showing-the-flipkart-logo-rests-on-a-yellow-background-along-with-a-keyboard-glasses-pen-and-book-editorial-use-only-2BGTR7X.jpg);
+}
